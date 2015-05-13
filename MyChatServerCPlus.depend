@@ -1,0 +1,106 @@
+# depslib dependency file v1.0
+1429340808 source:/home/youk/mycode/MyChatServerCPlus/main.cpp
+	<myunp.h>
+
+1431509941 /home/youk/mycode/MyChatServerCPlus/include/myunp.h
+	<stdio.h>
+	<stdlib.h>
+	<netinet/in.h>
+	<string.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<unistd.h>
+	<errno.h>
+	<sys/epoll.h>
+	<sys/select.h>
+	<fcntl.h>
+	<pthread.h>
+	<map>
+	"encapsulation_mysql.h"
+	"User.h"
+	"message.pb.h"
+	"login_check.pb.h"
+
+1426753136 /home/youk/mycode/MyChatServerCPlus/include/myhash.h
+
+1426911942 /home/youk/mycode/MyChatServerCPlus/include/User.h
+	<string>
+
+1426911962 source:/home/youk/mycode/MyChatServerCPlus/src/User.cpp
+	"User.h"
+
+1429687047 source:/home/youk/mycode/MyChatServerCPlus/src/encapsulation_mysql.cpp
+	<stdio.h>
+	<string>
+	<string.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<cassert>
+	<set>
+	<map>
+	<stdio.h>
+	<dirent.h>
+	<sys/types.h>
+	"encapsulation_mysql.h"
+
+1429687056 /home/youk/mycode/MyChatServerCPlus/include/encapsulation_mysql.h
+	<iostream>
+	<cassert>
+	<set>
+	<sys/shm.h>
+	<string>
+	<vector>
+	<stdio.h>
+	<string>
+	<vector>
+	<map>
+	<time.h>
+	<stdlib.h>
+	<memory>
+	<iconv.h>
+	<dlfcn.h>
+	<mysql/mysql.h>
+
+1429686087 source:/home/youk/mycode/MyChatServerCPlus/src/login_check.pb.cpp
+	"login_check.pb.h"
+	<algorithm>
+	<google/protobuf/stubs/common.h>
+	<google/protobuf/stubs/once.h>
+	<google/protobuf/io/coded_stream.h>
+	<google/protobuf/wire_format_lite_inl.h>
+	<google/protobuf/descriptor.h>
+	<google/protobuf/generated_message_reflection.h>
+	<google/protobuf/reflection_ops.h>
+	<google/protobuf/wire_format.h>
+
+1429686078 /home/youk/mycode/MyChatServerCPlus/include/login_check.pb.h
+	<string>
+	<google/protobuf/stubs/common.h>
+	<google/protobuf/generated_message_util.h>
+	<google/protobuf/message.h>
+	<google/protobuf/repeated_field.h>
+	<google/protobuf/extension_set.h>
+	<google/protobuf/unknown_field_set.h>
+
+1429756699 source:/home/youk/mycode/MyChatServerCPlus/src/message.pb.cpp
+	"message.pb.h"
+	<algorithm>
+	<google/protobuf/stubs/common.h>
+	<google/protobuf/stubs/once.h>
+	<google/protobuf/io/coded_stream.h>
+	<google/protobuf/wire_format_lite_inl.h>
+	<google/protobuf/descriptor.h>
+	<google/protobuf/generated_message_reflection.h>
+	<google/protobuf/reflection_ops.h>
+	<google/protobuf/wire_format.h>
+
+1429756711 /home/youk/mycode/MyChatServerCPlus/include/message.pb.h
+	<string>
+	<google/protobuf/stubs/common.h>
+	<google/protobuf/generated_message_util.h>
+	<google/protobuf/message.h>
+	<google/protobuf/repeated_field.h>
+	<google/protobuf/extension_set.h>
+	<google/protobuf/unknown_field_set.h>
+
